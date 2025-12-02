@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-  <title>Happy Birthday!!! :)</title>
+  <title>Para ti, Fabiana 💛</title>
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
   <!-- My Style -->
   <link rel="stylesheet" href="./style/main.css" />
 </head>
@@ -18,141 +18,166 @@
 <body>
 
     <audio class="song" loop autoplay>
-        <source src="./music/hbd.mpeg">
+        <source src="./music/hbd.mp3">
         </source>
-        Your browser isn't invited for super fun audio time.
     </audio>
 
-    <div class="container">
-        <div class="one">
-            <h1 class="one">
-                Hi
-                <span id="name">Irene</span>
-            </h1>
-            <p class="two" id="greetingText">I really like your name btw!</p>
+    <!-- Intro Section -->
+    <section class="intro-section">
+        <div class="intro-content">
+            <h1 class="intro-title">Hola</h1>
+            <h2 class="intro-name">Ojitos bonitos</h2>
+            <p class="intro-message">Tu pequeño te preparó algo bastante especial</p>
+            <div class="intro-continue">
+                <span>desliza</span>
+                <div class="arrow-down"></div>
+            </div>
         </div>
+    </section>
 
-        <div class="three">
-            <p>It's your birthday!! :D</p>
+    <!-- Sección de la carta con scroll -->
+    <section class="letter-section">
+        <div class="letter-content">
+            <p class="letter-paragraph">Mi querida Fabiana Cecilia,</p>
+            
+            <p class="letter-paragraph">Me mostraste muchas veces la forma bonita que tienes de amar y lo mucho que significará este detalle para ti. Así que aquí está, mi recuerdo de la primera vez que te vi. O como te gusta llamarlo, <em>nuestro bello click</em>.</p>
+            
+            <p class="letter-paragraph">Y tenía que ser allí, era la única forma en la que nuestros caminos se podrían cruzar. Coincidimos con las mismas personas, con las mismas cosas, en los mismos lugares. Compartíamos la misma pasión y el mismo mundo.</p>
+            
+            <p class="letter-paragraph">Y vaya fue mi suerte que mi primera impresión de esa academia al pisar su entrada fue verte bailar.</p>
+            
+            <p class="letter-paragraph">Desde el primer día me di cuenta que eres sin lugar a dudas, <strong>la mujer más hermosa que había visto</strong>, tan hermosa que era difícil de creer que seas real.</p>
+            
+            <p class="letter-paragraph">Recuerdo haber sentido por primera vez ese brillo que irradias bastante divino que me hace rendirme a tus pies.</p>
+            
+            <p class="letter-paragraph">Fue un mes lleno de emociones, reímos, sudamos, sufrimos y lloramos juntos. Y aunque no todo salió como esperábamos, fuiste y serás lo más valioso que me dejó el destino de toda esa aventura.</p>
+            
+            <p class="letter-paragraph">Porque <em>nuestro bello click</em> fue allí. Donde mi corazón se partió al ver a la chica con los ojitos más bonitos que había visto, llorar.</p>
+            
+            <p class="letter-paragraph">Yo ya me había rendido contigo, sabía que imaginar teniéndote como enamorada sería algo imposible y que jamás te fijarías en un chico como yo.</p>
+            
+            <p class="letter-paragraph">Pero no me permitiría jamás, dejar llorando a aquella chica de la que me fui enamorando inmensamente.</p>
+            
+            <p class="letter-paragraph">No tenía ni idea que te convertirías en quien eres ahora, <strong>la persona más importante en mi vida</strong>.</p>
+            
+            <p class="letter-paragraph">A veces no puedo creer lo afortunado que soy de que me eligieras.</p>
+            
+            <p class="letter-paragraph">Ha pasado mucho tiempo ya desde ese primer encuentro. Mi francés limón, somos y seamos la mejor pareja del mundo siempre, ¿sí?</p>
+            
+            <p class="letter-paragraph">No quiero ser nunca el chico que te detiene, quiero ser el que esté a tu lado.</p>
+            
+            <p class="letter-paragraph">No siempre será fácil, pero créeme que quiero seguir haciendo lo que sea necesario para que esto funcione.</p>
+            
+            <p class="letter-paragraph letter-signature">Con todo mi amor,<br>Harold 💛</p>
+            
+            <div class="continue-indicator">
+                <span>continuar</span>
+                <div class="arrow-down"></div>
+            </div>
         </div>
+    </section>
 
-        <div class="four">
-            <div class="text-box">
-                <p class="hbd-chatbox">
-                Happy birthday to youu!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam amet ipsam vitae, voluptatum architecto aliquid id quo error tempora quos aperiam magni necessitatibus quas ut, possimus nesciunt nam ad.
+    <!-- Animación de cumpleaños -->
+    <section class="birthday-section">
+        <div class="container">
+            <div class="five">
+                <p class="idea-1">Y tus sorpresas no terminan aquí...</p>
+                <p class="idea-2">Este es solo el comienzo</p>
+                <p class="idea-3">
+                    del día más <strong>bonito</strong> del año
                 </p>
-                <p class="fake-btn">Send</p>
+            </div>
+
+            <div class="six">
+                <div class="photo-wrapper">
+                    <img src="./img/fabi.jpg" alt="profile" class="profile-picture" id="imagePath"/>
+                    <img src="img/hat.svg" alt="hat" class="hat" />
+                </div>
+                <div class="wish">
+                    <h3 class="wish-hbd">¡Feliz Cumpleaños!</h3>
+                    <h5 id="wishText">Te amo infinitamente, mi francés limón ❤</h5>
+                </div>
+            </div>
+
+            <div class="seven">
+                <div class="baloons">
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon2.svg" alt="" />
+                    <img src="img/ballon1.svg" alt="" />
+                    <img src="img/ballon3.svg" alt="" />
+                </div>
+            </div>
+
+            <div class="eight">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" />
+                </svg>
+            </div>
+
+            <div class="nine">
+                <p>Ahora vuelve y dime si te gustó 💕</p>
+                <p class="last-smile">:)</p>
             </div>
         </div>
-
-        <div class="five">
-            <p class="idea-1">That's what I was going to do.</p>
-            <p class="idea-2">But then I stopped.</p>
-            <p class="idea-3">
-                I realised, I wanted to do something<br>
-                <strong>special</strong>
-                .
-            </p>
-            <p class="idea-4">Because,</p>
-            <p class="idea-5">
-                You are Special
-                <span>:)</span>
-            </p>
-            <p class="idea-6">
-                <span>S</span>
-                <span>O</span>
-            </p>
-        </div>
-
-        <div class="six">
-            <img src="./img/irene.jpg" alt="profile" class="profile-picture" id="imagePath"/>
-            <img src="img/hat.svg" alt="hat" class="hat" />
-            <div class="wish">
-                <h3 class="wish-hbd">Happy Birthday!</h3>
-                <h5 id="wishText">May the js.prototypes always be with you! ;)</h5>
-            </div>
-        </div>
-
-        <div class="seven">
-            <div class="baloons">
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon2.svg" alt="" />
-                <img src="img/ballon1.svg" alt="" />
-                <img src="img/ballon3.svg" alt="" />
-            </div>
-        </div>
-
-        <div class="eight">
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="20" />
-            </svg>
-        </div>
-
-        <div class="nine">
-            <p>Okay, now come back and tell me if you liked it.</p>
-            <p id="replay">Or click, if you want to watch it again.</p>
-            <p class="last-smile">:)</p>
-        </div>
-    </div>
+    </section>
 
 </body>
     <!-- Greensock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <!-- Sweetalert -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script type="application/javascript" src="./script/main.js"></script>
 
 </html>
